@@ -1,0 +1,4 @@
+Flask==2.2.3
+Markupsafe==2.1.2
+speech_recognition
+plotly==5.5.0
