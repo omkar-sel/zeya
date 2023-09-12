@@ -1,9 +1,1 @@
-this is first commit
-this is second commit
-changes done on the day1
-this is 4th commit after a long gap
-this is fifth commmit
-
-
-
 mvn archetype:generate -DgroupId=in.zeya.app -DartifactId=zeya -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4 -DinteractiveMode=false
