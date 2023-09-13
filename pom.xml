@@ -2,24 +2,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>in.zeya</groupId>
-    <artifactId>my-app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
-    <name>zeya</name>
+      <modelVersion>4.0.0</modelVersion>
+      <groupId>in.zeya</groupId>
+      <artifactId>my-app</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <packaging>war</packaging>
+      <name>zeya</name>
     
-     <distributionManagement>
-        <snapshotRepository>
-          <id>nexus</id>
-           <url>http://172.31.18.98:8081/Repository/my-app_snapshot/</url>
-    </snapshotRepository>
+         <distributionManagement>
+              <snapshotRepository>
+                <id>nexus</id>
+                 <url>http://172.31.18.98:8081/Repository/my-app_snapshot/</url>
+              </snapshotRepository>
    
-    <Repository>
-          <id>nexus</id>
-    <url>http://172.31.18.98:8081/Repository/my-app_release/</url>
-         </Repository>
+               <Repository>
+                 <id>nexus</id>
+                 <url>http://172.31.18.98:8081/Repository/my-app_release/</url>
+              </Repository>
     
-             </distributionManagement>
+          </distributionManagement>
 
 </project>
