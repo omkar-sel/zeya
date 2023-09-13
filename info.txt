@@ -3,6 +3,10 @@ this is second commit
 changes done on the day1
 this is 4th commit after a long gap
 this is fifth commmit
+<<<<<<< HEAD
 
 
 
+=======
+this is sixth commmit
+>>>>>>> 3fe82efa9f12f24d8268095ecc5fbf810fba1d22
