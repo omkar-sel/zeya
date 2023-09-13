@@ -1,1 +1,0 @@
-mvn archetype:generate -DgroupId=in.zeya.app -DartifactId=zeya -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4 -DinteractiveMode=false
