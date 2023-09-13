@@ -6,16 +6,17 @@
     <groupId>in.zeya</groupId>
     <artifactId>my-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
     <name>zeya</name>
     
      <distributionManagement>
-    <snapshotRepository>
-    <id>nexus</id>
-    <url>http://172.31.18.98:8081/Repository/my-app_snapshot/</url>
+        <snapshotRepository>
+          <id>nexus</id>
+           <url>http://172.31.18.98:8081/Repository/my-app_snapshot/</url>
     </snapshotRepository>
+   
     <Repository>
-    <id>nexus</id>
+          <id>nexus</id>
     <url>http://172.31.18.98:8081/Repository/my-app_release/</url>
          </Repository>
     
