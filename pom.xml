@@ -8,25 +8,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>zeya</name>
-    <modules>
-       <!-- <module>backoffice-bff</module>-->
-        <module>cart</module>
-        <!--<module>customer</module>
-        <module>inventory</module>
-        <module>location</module>
-        <module>media</module>-->
-        <module>order</module>
-        <!--<module>payment</module>
-        <module>payment-paypal</module>
-        <module>product</module>
-        <module>promotion</module>
-        <module>rating</module>
-        <module>search</module>
-        <module>storefront-bff</module>
-        <module>tax</module>-->
-        <module>saga</module>
-    </modules>
-    <distributionManagement>
+    
+     <distributionManagement>
     <snapshotRepository>
     <id>nexus</id>
     <url>http://172.31.18.98:8081/Repository/my-app_snapshot/</url>
