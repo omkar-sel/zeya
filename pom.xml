@@ -15,10 +15,10 @@
                  <url>http://172.31.18.98:8081/Repository/my-app_snapshot/</url>
               </snapshotRepository>
    
-               <Repository>
+               <repository>
                  <id>nexus</id>
                  <url>http://172.31.18.98:8081/Repository/my-app_release/</url>
-              </Repository>
+              </repository>
     
           </distributionManagement>
 
