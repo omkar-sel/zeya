@@ -9,6 +9,18 @@
       <packaging>war</packaging>
       <name>zeya</name>
     
+          <name>Maven Quick Start Archetype</name>  
+  <url>http://maven.apache.org</url>  
+  
+  <dependencies>  
+    <dependency>  
+      <groupId>junit</groupId>  
+      <artifactId>junit</artifactId>  
+      <version>4.8.2</version>  
+      <scope>test</scope>  
+    </dependency>  
+  </dependencies>  
+    
          <distributionManagement>
               <snapshotRepository>
                 <id>nexus</id>
@@ -20,6 +32,6 @@
                  <url>http://172.31.18.98:8081/Repository/my-app_release/</url>
               </repository>
     
-          </distributionManagement>
+          </distributionManagement>  
 
 </project>
