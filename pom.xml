@@ -10,7 +10,7 @@
       <name>zeya</name>
     
           <name>Maven Quick Start Archetype</name>  
-  <url>http://maven.apache.org</url>  
+          <url>http://maven.apache.org</url>  
   
   <dependencies>  
     <dependency>  
